@@ -23,9 +23,9 @@ layout: index
 <div id="MENU">
 <h2>menu</h2>
 	<ul>
-		<li id="MENU01" class="menu-on"><a href="/">HOME</a></li>
-		<li id="MENU02"><a href="/about/">ABOUT</a></li>
-		<li id="MENU03"><a href="/documents/">DOCUMENTS</a></li>
+		<li id="MENU01" class="menu-on"><a href="./">HOME</a></li>
+		<li id="MENU02"><a href="./about/">ABOUT</a></li>
+		<li id="MENU03"><a href="./documents/">DOCUMENTS</a></li>
 	</ul>
 </div>
 <hr>
