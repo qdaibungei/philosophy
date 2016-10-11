@@ -167,7 +167,7 @@ blockquote ul,blockquote ol,blockquote dl,blockquote p,blockquote pre{ margin:.5
 address{ padding:.5em .8em; border:solid #F7E6F2; border-width:1px 0; background:#FFF8FD; color:#000; }
 li address{ padding:0 .1em; }
 pre{ padding:.6em 0; border:solid #F0E5D9; border-width:10px 15px; border-radius:10px; 
-	background:#F0E5D9; color:#000; word-wrap:normal; text-shadow:none; }
+	background:#e0e0e0; color:#000; word-wrap:normal; text-shadow:none; }
 hr{ display:none; }
 div.text hr{ display:block; border-color:#DDD; }
 
