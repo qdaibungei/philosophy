@@ -396,10 +396,12 @@ hr {
   border: 0 none;
 }
 
+/*
 ul,
 ol {
   padding-left: 2em;
 }
+*/
 
 ul ul,
 ul ol,
@@ -744,6 +746,10 @@ li.menu-on a{
 div#KIZI{
 	font-size: 1rem;
 	line-height: 1.7;
+}
+div#KIZI ul,
+div#KIZI ol {
+  padding-left: 2em;
 }
 div.text{}
 ul.modori{
