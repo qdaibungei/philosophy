@@ -712,6 +712,7 @@ div#PAGETOP{}
 div#HEADER{}
 ul#PAN{
 	text-align: right;
+	font-size: 1rem;
 }
 ul#PAN li{
 	display: inline-block;
@@ -727,7 +728,7 @@ div#MENU h2{
 }
 div#MENU ul{
 	line-height: 1;
-	margin: 20px 0 20px;
+	margin: 20px 5px 20px;
 }
 div#MENU li{
 	display: inline-block;
