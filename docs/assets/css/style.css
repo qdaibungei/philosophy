@@ -55,7 +55,7 @@ code,
 kbd,
 pre {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 hr {
@@ -209,6 +209,7 @@ pre {
   margin-top: 0;
   margin-bottom: 0;
   font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  background-color: rgba(0,0,0,0.04);
 }
 
 .pl-0 {
@@ -715,11 +716,9 @@ ul#PAN li{
 ul#PAN li+li::before{
 	content: '／';
 }
-/*
 div#MENU{
-	font-size: 1.4rem;
+	font-size: 1rem;
 }
-*/
 div#MENU h2{
 	display: none;
 }
