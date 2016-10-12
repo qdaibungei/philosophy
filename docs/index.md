@@ -41,7 +41,7 @@ layout: index
 
 {% for post in site.posts limit:1 %}
 <h2>{{ post.title }}</h2>
-<p>（以下、最新記事）</p>
+<p>（最新記事）</p>
 {{ post.content }}
 {% endfor %}
 
