@@ -12,8 +12,8 @@ body{
 	-webkit-text-size-adjust: 100%;
 	color: #333;
 	font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: 16px;
-	line-height: 1.6;
+	font-size: 1.2em;
+/*	line-height: 1.6;*/
 	word-wrap: break-word;
 }
 @media (max-width: 768px) {
@@ -740,12 +740,10 @@ div#MENU ul li:first-child{
 li.menu-on a{
 	color: #333;
 }
-/*
 div#KIZI{
-	font-size: 1.4rem;
+	font-size: 1rem;
 	line-height: 1.7;
 }
-*/
 div.text{}
 ul.modori{
 	text-align: right;
@@ -754,11 +752,9 @@ ul.modori li{
 	list-style-type: none;
 }
 
-/*
 div#FOOTER{
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
-*/
 div#FOOTER h2{
 	display: none;
 }
