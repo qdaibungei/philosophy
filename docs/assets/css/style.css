@@ -190,6 +190,20 @@ p {
 .footnotes {
   margin-top: 80px;
 }
+.footnotes p{
+	display: inline;
+	font-size: 0.8em;
+}
+.footnotes ol li {
+	list-style-type: none;
+	list-style-position: inside;
+	counter-increment: cnt;
+}
+.footnotes ol li::before {
+	display: marker;
+	content: "[" counter(cnt) "]";
+	font-size: 0.8em;
+}
 
 .footnote {
   vertical-align: super;
