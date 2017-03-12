@@ -9,7 +9,7 @@ layout: index
 <!--　　ヘッダー　　-->
 <!--================-->
 <div id="HEADER">
-<h1>九州大学文藝部・哲学会</h1>
+<h1 class="logo">哲学会</h1>
 	<ul id="PAN">
 		<li>HOME</li>
 	</ul>
@@ -41,7 +41,6 @@ layout: index
 
 {% for post in site.posts limit:1 %}
 <h2>{{ post.title }}</h2>
-<p>（最新記事）</p>
 {{ post.content }}
 {% endfor %}
 
@@ -83,7 +82,7 @@ layout: index
 <div id="FOOTER">
 <h2>連絡先</h2>
 	<ul>
-		<li id="FOOTER01">©2016 哲学会</li>
+		<li id="FOOTER01">©2016–2017 哲学会</li>
 	</ul>
 </div>
 
