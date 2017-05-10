@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <div id="PAGETOP">
 
 
@@ -12,7 +8,6 @@ layout: default
 {% include h1.html %}
 	<ul id="PAN">
 		<li>HOME</li>
-		<li>{{ page.title }}</li>
 	</ul>
 </div>
 <hr>
@@ -24,8 +19,8 @@ layout: default
 <div id="MENU">
 <h2>menu</h2>
 	<ul>
-		<li id="MENU01"><a href="{{ site.baseurl }}/">HOME</a></li>
-		<li id="MENU02" class="menu-on"><a href="{{ site.baseurl }}/about/">ABOUT</a></li>
+		<li id="MENU01" class="menu-on"><a href="{{ site.baseurl }}">HOME</a></li>
+		<li id="MENU02"><a href="{{ site.baseurl }}/about/">ABOUT</a></li>
 		<li id="MENU03"><a href="{{ site.baseurl }}/documents/">DOCUMENTS</a></li>
 	</ul>
 </div>
@@ -37,16 +32,28 @@ layout: default
 <!--================-->
 <div id="KIZI">
 
-<h2>{{ page.title }}</h2>
+
+
+<h2>概要</h2>
 <div class="text">
-
-
-
-{{ content }}
+ここは文藝部LaTeX研究会の研究資料置き場である。
 
 
 {% include modori.html %}
 
+
+
+<h2>Recent Documents</h2>
+<div class="text">
+<ul>
+{% for post in site.posts limit:5 %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}"><code>{{ post.date | date: "%Y-%m-%d" }}</code>　{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+{% include modori.html %}
 
 </div>
 

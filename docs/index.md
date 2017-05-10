@@ -9,7 +9,7 @@ layout: index
 <!--　　ヘッダー　　-->
 <!--================-->
 <div id="HEADER">
-<h1 class="logo">哲学会</h1>
+<h1 class="logo">{{site.title}}</h1>
 	<ul id="PAN">
 		<li>HOME</li>
 	</ul>
