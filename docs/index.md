@@ -79,12 +79,7 @@ layout: index
 <!--================-->
 <!--　　フッター　　-->
 <!--================-->
-<div id="FOOTER">
-<h2>連絡先</h2>
-	<ul>
-		<li id="FOOTER01">©2016–2017 哲学会</li>
-	</ul>
-</div>
 
+{% include footer.html %}
 
 </div>
