@@ -18,13 +18,15 @@ p, li {
   text-justify: inter-ideograph;
   margin: 0 0 0.8em;
 }
+a {
+	word-break: break-all;
+}
 div#KIZI div.text ul li {
 	padding-left: 1em;
 	text-indent: -1em;
 }
 .footnotes {
 	margin-top: 80px;
-	word-break: break-all;
 }
 .footnotes p{
 	display: inline;
