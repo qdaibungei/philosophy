@@ -24,10 +24,10 @@ p, li {
 a {
     word-break: break-all;
 }
-div#KIZI div.text ul li {
+/* div#KIZI div.text ul li {
     padding-left: 1em;
     text-indent: -1em;
-}
+} */
 .footnotes {
     margin-top: 80px;
 }
@@ -80,11 +80,11 @@ div#KIZI h4 {
     color: #59b9c6;
     border-left: 3px solid #59b9c6;
 } */
-div#KIZI div.text h1+h2,
+/* div#KIZI div.text h1+h2,
 div#KIZI div.text h2+h3,
 div#KIZI div.text h3+h4 {
     margin-top: 0;
-}
+} */
 div#MENU h2    ,
 div#FOOTER h2    {
     display: none;
