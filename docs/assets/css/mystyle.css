@@ -57,12 +57,12 @@ a {
 .footnote::after {
   content: "］"
 }
-div#KIZI div.text ul li::before {
-    /* content: "‣"; */
+/* div#KIZI div.text ul li::before {
+    content: "‣";
     padding-right: 0.25em;
     margin-left: 0.25em;
-    /* color: #0095d9; */
-}
+    color: #0095d9;
+} */
 div#KIZI div.text ul.modori li::before {
     content: none;
 }
@@ -135,4 +135,10 @@ ul.tags {
 }
 ul.tags li {
     display: inline-block;
+}
+li.menu-on a{
+    pointer-events: auto;
+    cursor: auto;
+    color: inherit;
+    text-decoration: none;
 }
