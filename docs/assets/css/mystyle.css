@@ -2,7 +2,7 @@
 * {
     font-family: sans-serif;
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     body{
         margin: auto;
         width: 95%;
@@ -14,20 +14,20 @@
     h1 {
         margin-top: 70px;
     }
-} */
+}
 p, li {
     line-height: 1.65;
     text-align: justify;
     text-justify: inter-ideograph;
-    /* margin: 0 0 0.8em; */
+    margin: 0 0 0.8em;
 }
 a {
     word-break: break-all;
 }
-/* div#KIZI div.text ul li {
+div#KIZI div.text ul li {
     padding-left: 1em;
     text-indent: -1em;
-} */
+}
 .footnotes {
     margin-top: 80px;
 }
@@ -44,7 +44,7 @@ a {
 }
 .footnotes ol li::before {
     display: marker;
-    content: "［注" counter(cnt) "］";
+    content: "[" counter(cnt) "]";
     font-size: 0.85em;
 }
 .footnote {
@@ -52,21 +52,21 @@ a {
     text-decoration: none;
 }
 .footnote::before {
-  content: "［注"
+  content: "["
 }
 .footnote::after {
-  content: "］"
+  content: "]"
 }
-/* div#KIZI div.text ul li::before {
+div#KIZI div.text ul li::before {
     content: "‣";
     padding-right: 0.25em;
     margin-left: 0.25em;
     color: #0095d9;
-} */
+}
 div#KIZI div.text ul.modori li::before {
     content: none;
 }
-/* div#KIZI h2 {
+div#KIZI h2 {
     font-size: 1.2em;
 }
 div#KIZI h3 {
@@ -79,12 +79,12 @@ div#KIZI h4 {
     margin-top: 30px;
     color: #59b9c6;
     border-left: 3px solid #59b9c6;
-} */
-/* div#KIZI div.text h1+h2,
+}
+div#KIZI div.text h1+h2,
 div#KIZI div.text h2+h3,
 div#KIZI div.text h3+h4 {
     margin-top: 0;
-} */
+}
 div#MENU h2    ,
 div#FOOTER h2    {
     display: none;
@@ -127,24 +127,12 @@ code {
 figure {
     margin: 0px;
 }
-/* strong {
+strong {
     background: linear-gradient(transparent 60%, #73efff 60%);
-} */
+}
 ul.tags {
     text-align: right;
 }
 ul.tags li {
     display: inline-block;
-}
-li.menu-on a{
-    pointer-events: auto;
-    cursor: pointer;
-    color: inherit;
-    text-decoration: none;
-}
-div.text > h1 {
-    margin: 100px auto 0px;
-}
-div.text > h2 {
-    margin: -20px;
 }
