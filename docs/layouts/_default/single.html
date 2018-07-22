@@ -1,0 +1,9 @@
+{{ partial "site_header.html" . }}
+{{ partial "menu_documents.html" . }}
+<p>
+    {{ .Title }}<br>
+    {{ .Date.Format "2006/1/2" }}
+</p>
+
+{{ .Content }}
+{{ partial "site_footer.html" . }}
