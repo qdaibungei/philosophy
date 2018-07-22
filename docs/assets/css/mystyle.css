@@ -33,14 +33,14 @@ div#KIZI div.text ul li {
 }
 .footnotes p{
     display: inline;
-    font-size: 1em;
-    /* line-height: 1.5; */
+    font-size: 0.85em;
+    line-height: 1.5;
 }
 .footnotes ol li {
     list-style-type: none;
     list-style-position: inside;
     counter-increment: cnt;
-    margin-bottom: 1em;
+    margin-bottom: 0.85em;
 }
 .footnotes ol li::before {
     display: marker;
@@ -57,12 +57,12 @@ div#KIZI div.text ul li {
 .footnote::after {
   content: "］"
 }
-/* div#KIZI div.text ul li::before {
-    content: "‣";
+div#KIZI div.text ul li::before {
+    /* content: "‣"; */
     padding-right: 0.25em;
     margin-left: 0.25em;
-    color: #0095d9;
-} */
+    /* color: #0095d9; */
+}
 div#KIZI div.text ul.modori li::before {
     content: none;
 }
