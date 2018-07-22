@@ -2,7 +2,7 @@
 * {
     font-family: sans-serif;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     body{
         margin: auto;
         width: 95%;
@@ -14,7 +14,7 @@
     h1 {
         margin-top: 70px;
     }
-}
+} */
 p, li {
     line-height: 1.65;
     text-align: justify;
@@ -40,12 +40,12 @@ div#KIZI div.text ul li {
     list-style-type: none;
     list-style-position: inside;
     counter-increment: cnt;
-    margin-bottom: 0.85em;
+    margin-bottom: 1em;
 }
 .footnotes ol li::before {
     display: marker;
-    content: "[" counter(cnt) "]";
-    font-size: 0.85em;
+    content: "［注" counter(cnt) "］";
+    font-size: 1em;
 }
 .footnote {
     font-size: 0.8em;
