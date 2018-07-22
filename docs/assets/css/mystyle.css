@@ -57,16 +57,16 @@ div#KIZI div.text ul li {
 .footnote::after {
   content: "]"
 }
-div#KIZI div.text ul li::before {
+/* div#KIZI div.text ul li::before {
     content: "‣";
     padding-right: 0.25em;
     margin-left: 0.25em;
     color: #0095d9;
-}
+} */
 div#KIZI div.text ul.modori li::before {
     content: none;
 }
-div#KIZI h2 {
+/* div#KIZI h2 {
     font-size: 1.2em;
 }
 div#KIZI h3 {
@@ -79,7 +79,7 @@ div#KIZI h4 {
     margin-top: 30px;
     color: #59b9c6;
     border-left: 3px solid #59b9c6;
-}
+} */
 div#KIZI div.text h1+h2,
 div#KIZI div.text h2+h3,
 div#KIZI div.text h3+h4 {
