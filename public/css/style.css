@@ -151,7 +151,7 @@ a:hover{
     text-justify: inter-ideograph;
 }
 .content h1:first-child {
-    margin-top: 0;
+    margin-top: 10px;
 }
 .yomi {
     font-size: 0.8em;
