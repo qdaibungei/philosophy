@@ -515,17 +515,19 @@ img {
 }
 .footnotes ol li::before {
     display: marker;
-    content: "［注" counter(cnt) "］";
-    font-size: 0.85em;
+    content: "［＊" counter(cnt) "］";
+    font-size: 1rem;
+    vertical-align: super;
 }
 .footnote-ref {
-    font-size: 1em;
+    font-size: 1rem;
     text-decoration: none;
+    vertical-align: super;
 }
-.footnote-ref::before {
-  content: "［注"
+.footnote-ref > a::before {
+  content: "［＊"
 }
-.footnote-ref::after {
+.footnote-ref > a::after {
   content: "］"
 }
 
