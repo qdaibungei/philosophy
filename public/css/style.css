@@ -515,7 +515,7 @@ img {
 }
 .footnotes ol li::before {
     display: marker;
-    content: "［＊" counter(cnt) "］";
+    content: " [ " counter(cnt) " ] ";
     font-size: 1rem;
     vertical-align: super;
 }
@@ -525,10 +525,13 @@ img {
     vertical-align: super;
 }
 .footnote-ref > a::before {
-  content: "［＊"
+  content: " [ "
 }
 .footnote-ref > a::after {
-  content: "］"
+  content: " ] "
+}
+strong {
+    background: linear-gradient(transparent 60%, #73efff 60%);
 }
 
 @media (max-width: 768px) {
