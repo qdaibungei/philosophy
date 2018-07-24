@@ -81,7 +81,6 @@ a:hover{
 }
 .wrapper{
     width: 970px;
-    /* min-height: 500px; */
     margin: 30px auto 40px;
 }
 .main{
@@ -586,8 +585,8 @@ strong {
         margin: auto;
     }
     .wrapper{
-        margin: 10px auto 40px;
-        padding: 20px 15px 0 10px;
+        margin: 0 auto 40px;
+        padding: 15px 15px 0 10px;
         width: 100%;
     }
     .global-nav{
