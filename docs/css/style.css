@@ -586,7 +586,7 @@ strong {
         margin: auto;
     }
     .wrapper{
-        margin: auto;
+        margin: 10px auto 40px;
         padding: 20px 15px 0 10px;
         width: 100%;
     }
