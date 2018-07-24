@@ -8,6 +8,9 @@ body{
     color: #333;
     font-size: 1.2em;
     font-family:'Lato',sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .about{
     padding: 80px 30px;
@@ -78,7 +81,7 @@ a:hover{
 }
 .wrapper{
     width: 970px;
-    min-height: 500px;
+    /* min-height: 500px; */
     margin: 30px auto 40px;
 }
 .main{
@@ -280,6 +283,7 @@ a:hover{
 }
 
 .footer{
+    margin-top: auto;
     width: 100%;
     padding: 10px 0 50px;
     background-color: #333;
