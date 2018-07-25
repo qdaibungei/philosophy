@@ -525,8 +525,8 @@ img {
     font-size: 1rem;
     text-decoration: none;
     vertical-align: super;
-    display: inline-block;
     letter-spacing: 1px;
+    margin-left: 1px;
 }
 .footnote-ref > a::before {
   content: "["
