@@ -12,6 +12,25 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
+.title {
+    font-size: 1.4rem;
+    padding: 10px 0px;
+    display: block;
+}
+.title:after {
+    display: block;
+    width: 30px;
+    content: "";
+    border-top: 2px solid #ccc;
+    margin: 15px 0 auto;
+}
+.title:before {
+    display: block;
+    width: 100%;
+    content: "";
+    border-top: 2px solid #ccc;
+    margin: auto 0 15px;
+}
 .about{
     padding: 80px 30px;
 }
@@ -537,14 +556,15 @@ img {
     background: linear-gradient(transparent 60%, #73efff 60%);
 } */
 pre, .highlight {
-    font-size: 1.2em;
+    font-size: 1.4rem;
     margin: 1px 0 10px;
     overflow-x: auto;
 }
 p > code, li > code {
-    font-size: 1.2em;
+    font-size: 1.4rem;
     border-radius: 2px;
     padding: 1px;
+    margin: 0 2px;
     font-family: monospace;
     background-color: #f7f7f7;
 }
