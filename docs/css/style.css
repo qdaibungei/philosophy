@@ -264,6 +264,9 @@ a:hover{
     text-align: justify;
     text-justify: inter-ideograph;
 }
+.content ul li:last-child {
+    margin-bottom: 1.5em;
+}
 .content ul li::before{
     content:' • ';
 }
