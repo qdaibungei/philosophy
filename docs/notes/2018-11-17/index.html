@@ -36,7 +36,7 @@
 
 <h1 id="順序関係と順序集合">順序関係と順序集合</h1>
 
-<p>$\def\set#1{\{#1\}}$
+<p>$\newcommand{\set}[1]{\{#1\}}$
 集合$U$上の二項関係$Rxy$が次の性質を満たすとき，$Rxy$を$U$上の<strong>順序関係</strong>（半順序関係）と言う．</p>
 
 <p>$\forall x Rxx$（反射律）<br>
@@ -62,8 +62,8 @@ $\forall x \forall y \forall z ((Rxy \land Ryz) \to Rxz)$（推移律）</p>
 <ul>
 <li>$a$は$X$の<strong>上界</strong> $\iff$ $\forall x (x \in X \to x\leq a)$</li>
 <li>$a$は$X$の<strong>下界</strong> $\iff$ $\forall x (x \in X \to a\leq x)$</li>
-<li>$a$は$X$の<strong>最大元</strong> $\iff$ $(a \in X) \land \forall x (x \in X \to x\leq a)$</li>
-<li>$a$は$X$の<strong>最小元</strong> $\iff$ $(a \in X) \land \forall x (x \in X \to a\leq x)$</li>
+<li>$a$は$X$の<strong>最大元</strong> $\iff$ $a \in X \land \forall x (x \in X \to x\leq a)$</li>
+<li>$a$は$X$の<strong>最小元</strong> $\iff$ $a \in X \land \forall x (x \in X \to a\leq x)$</li>
 <li>$a$は$X$の<strong>上限</strong> $\iff$ $a$が$X$の最小上界（$X$の上界全体からなる集合の最小元）</li>
 <li>$a$は$X$の<strong>下限</strong> $\iff$ $a$が$X$の最大下界（$X$の下界全体からなる集合の最大元）</li>
 <li>$a$は$X$の<strong>極大元</strong> $\iff$ $\forall x ((x\in X \land a\leq x) \to x=a)$．すなわち$\lnot\exists x (x \in X \land a&lt;x)$</li>
@@ -73,6 +73,8 @@ $\forall x \forall y \forall z ((Rxy \land Ryz) \to Rxz)$（推移律）</p>
 <p>$X$の上界が存在するとき，$X$は<strong>上に有界</strong>であると言い，$X$の下界が存在するとき，$X$は<strong>下に有界</strong>であると言う．$X$が上にも下にも有界であるとき，たんに「$X$は<strong>有界</strong>である」と言う．</p>
 
 <p>なお，最大ならば極大だが，極大だからといって最大であるとは限らない．</p>
+
+<p>上限も極大元も、いわば最大元の一般化と考えられる。上限は存在するとすれば一意であるから最大元と非常に似ているが、$X$内に入っていない。極大元は複数存在する場合があるからこの点は最大元と似ていないが、$X$内に入っているのでその点は最大元と似ている。</p>
 
 <p>参考までに，それぞれの直観的な意味を考えてみると次のようになろう．</p>
 
