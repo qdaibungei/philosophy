@@ -6,10 +6,20 @@
     <description>Recent content on 文藝部哲学会</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://qdaibungei.github.io/philosophy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>言語行為論用語の覚書</title>
+      <link>https://qdaibungei.github.io/philosophy/notes/2019-08-22/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qdaibungei.github.io/philosophy/notes/2019-08-22/</guid>
+      <description>言語行為の分類 発語内行為（illocutionary act） 挨拶する、命名する、約束する、など、「何かを言うことによって何かを行なうこと」を発語内行為と言う。
+発話媒介行為（perlocutionary act） 発語内行為の結果として達成される行為。「論ずることによって他人を説得する」「警告を与えることによって怖がらせる」「言葉をかけて励ます」など。</description>
+    </item>
     
     <item>
       <title>ジョセフ・ヒース『ルールに従う――社会科学の規範理論序説』</title>
