@@ -2,10 +2,10 @@
 {{ partial "menu_documents.html" . }}
 
 <h1>Documents</h1>
-<p>
+<ul>
     {{ range (.Paginator 100).Pages }}
         {{ .Render "list" }}
     {{ end }}
-</p>
+</ul>
 
 {{ partial "site_footer.html" . }}
