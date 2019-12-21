@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,400i,700,700i&display=swap');
 
 html{
     font-size: 62.5%;
@@ -16,6 +17,7 @@ body{
     font-size: 1.4rem;
     padding: 10px 0px;
     display: block;
+    color: #767676;
 }
 .title:after {
     display: block;
@@ -51,23 +53,24 @@ a:hover{
 }
 .global-nav .nav-item{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 0 0 50px;
 }
 .global-nav .nav-item a{
     display: inline-block;
-    width: 100px;
+    width: inherit;
     height: 30px;
     line-height: 30px;
     text-align: center;
-    color: #fff;
+    color: #999;
     font-size: 1.3rem;
+    font-weight: 700;
     letter-spacing: 1px;
     transition: 0.15s;
     text-decoration: none;
 }
 .global-nav .nav-item.active a,
 .global-nav .nav-item a:hover{
-    border-bottom: 4px solid #1BA0E1;
+    color: #fff;
     text-decoration: none;
 }
 .hidden{
@@ -75,19 +78,11 @@ a:hover{
 }
 .logo{
     font-size: 30px;
-    padding: 19px 6px;
-    /* width: 224px; */
+    padding: 19px 6px 19px 0;
     height: 86px;
-    /* background: url('../images/logo.png') no-repeat;
-    background-size: 52%;
-    overflow: hidden;
-    text-indent: 100%;
-    white-space: nowrap; */
 }
 .logo a{
     display: block;
-    /* width: 118px;
-    height: 45px; */
     color: #fff;
     font-weight: 400;
     text-decoration: none;
@@ -98,14 +93,18 @@ a:hover{
     padding: 6px 0 10px;
     background-color: #333;
 }
+.header-wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
 .wrapper{
-    width: 100%;
+    width: 700px;
     margin: 30px auto 40px;
 }
 .main{
     display: block;
-    width: auto;
-    margin: 0 20% 0;
+    width: 100%;
+    margin: 0 auto;
 }
 .content{
     line-height: 1.7;
@@ -264,9 +263,6 @@ a:hover{
     text-align: justify;
     text-justify: inter-ideograph;
 }
-.content ul li:last-child {
-    margin-bottom: 1.5em;
-}
 .content ul li::before{
     content:' • ';
 }
@@ -281,26 +277,6 @@ a:hover{
     text-align: justify;
     text-justify: inter-ideograph;
 }
-.marusuji-list{
-    font-size: 1.4rem;
-    padding: 0;
-}
-.marusuji-item{
-   list-style-type: none;
-   padding-left: 1em;
-   text-indent: -1em;
-   text-align: justify;
-   text-justify: inter-ideograph;
- }
-.marusuji-item:first-child:before{ /* <ol>要素直下の 1番目の<li>要素のマーカ。 */
-   content: "\2460";  /* 丸数字1のUSCコード*/
- }
-.marusuji-item:first-child+.marusuji-item:before{/* <ol>要素直下の 2番目の<li>要素のマーカ。 */
-   content: "\2461";  /* 丸数字2のUSCコード*/
- }
-.marusuji-item:first-child+.marusuji-item+.marusuji-item:before{/* <ol>要素直下の 3番目の<li>要素のマーカ。 */
-   content: "\2462";  /* 丸数字3のUSCコード*/
-}
 
 .footer{
     margin-top: auto;
@@ -310,7 +286,6 @@ a:hover{
     color: #fff;
 }
 .horizontal-list{
-    /*width: 970px;*/
     margin: 0 auto;
     text-align: right;
     font-size: 0;
@@ -343,35 +318,6 @@ a:hover{
     color: transparent;
 }
 
-.tategaki{
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-}
-.tcy{
-    -webkit-text-combine: horizontal;
-    -ms-text-combine-horizontal: all;
-    text-combine-upright: all;
-}
-.mincho{
-    font-family: 游明朝, YuMincho, 'ヒラギノ明朝 Pr6N', 'Hiragino Mincho Pr6N', 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', 'ヒラギノ明朝 StdN', 'Hiragino Mincho StdN', HiraMinProN-W3, HGP明朝B, HGS明朝B, HG明朝B, serif, 'Noto Sans Japanese';
-}
-.kakugen{
-    margin: 25px 10px 0 120px;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1.8;
-    height: 40rem;
-}
-.kakugen a{
-    text-decoration: none;
-    color: #333;
-    font-family: 'Noto Sans Japanese', serif;
-    font-weight: 700;
-}
-.kakugen a:hover{
-    color: #337ab7;
-}
 .sidemenu{
     float: right;
     width: 275px;
@@ -413,8 +359,6 @@ a:hover{
     transition: background-color 0.15s;
 }
 
-
-
 .icon{
     color: #fff;
     font-weight: 700;
@@ -446,11 +390,11 @@ img {
 }
 .button{
     display: inline-block;
-	background-color: #9ac4ed;
+    background-color: #9ac4ed;
     border: 2px solid #9ac4ed;
     border-radius: 2px;
     padding: 5px 1px 5px 7px;
-	color: #fff;
+    color: #fff;
     font-size: 1.4rem;
     letter-spacing: 1px;
 }
@@ -458,7 +402,7 @@ img {
     color: inherit;
 }
 .button:hover{
-	background-color: #fff;
+    background-color: #fff;
     border: 2px solid #9ac4ed;
     color: #9ac4ed;
     transition: 0.15s;
@@ -485,12 +429,6 @@ img {
     background: #aee1fa; /*背景色*/
     color: #333333; /*文字色*/
 }
-.sesame_dot {
-    font-style: normal;
-    padding: 1px 0 0;
-    background: url("http://www.aozora.gr.jp/cards/css/kentenbosen/before/ten/boten.png") repeat-x;
-    background-size: 1em;
-}
 .marker{
     font-weight: 400;
     background: linear-gradient(transparent 60%, #aee1fa 60%);
@@ -512,14 +450,6 @@ img {
     text-transform: uppercase;
 }
 
-#fc2_footer{
-    background-color: #333;
-    padding: 15px;
-}
-#fc2_footer a{
-    color: #fff;
-    text-decoration: none;
-}
 .footnotes hr {
     display: none;
 }
@@ -545,7 +475,7 @@ img {
     display: marker;
     content: "注" counter(cnt);
     font-size: 1rem;
-    vertical-align: text-top;
+    vertical-align: top;
     text-decoration: none;
     letter-spacing: 1px;
     margin: 0 5px 0 1px;
@@ -569,34 +499,32 @@ img {
     content: "注";
     color: #fff;
     font-weight: bold;
+    word-break: keep-all;
 }
 .footnote-ref a {
     color: #fff;
     font-weight: bold;
 }
-/* .footnote-ref > a::before {
-  content: "["
-}
-.footnote-ref > a::after {
-  content: "]"
-} */
 #disqus_thread {
     margin-top: 80px;
 }
 /* strong {
     background: linear-gradient(transparent 60%, #73efff 60%);
 } */
-pre, .highlight {
-    font-size: 1.4rem;
+pre, code, .highlight {
+    font-size: 1.35rem;
+    font-family: 'Courier Prime', monospace;
     margin: 1px 0 10px;
+    padding: 5px 0;
     overflow-x: auto;
+    border-radius: 2px;
 }
 p > code, li > code {
-    font-size: 1.4rem;
-    border-radius: 2px;
-    padding: 1px;
+    font-size: 1.35rem;
+    font-family: 'Courier Prime', monospace;
     margin: 0 2px;
-    font-family: monospace;
+    padding: 1px;
+    border-radius: 2px;
     background-color: #f7f7f7;
 }
 blockquote {
@@ -604,6 +532,28 @@ blockquote {
     border-left: 2px solid #e8e8e8;
     padding-left: 13px;
 }
+.docs-date {
+    font-size: 1.2rem;
+    color: #767676;
+}
+.docs-date:before {
+    content: "（";
+}
+.docs-date:after {
+    content: "）";
+}
+.tag-count {
+    font-size: 1.2rem;
+    color: #767676;
+    margin-left: -2px;
+}
+.tag-count:before {
+    content: "（";
+}
+.tag-count:after {
+    content: "）";
+}
+
 
 @media (max-width: 768px) {
     .sidemenu{
@@ -613,43 +563,13 @@ blockquote {
     .content{
         line-height: 1.5;
     }
-    .mokuji{
-        /*font-weight: 400;
-        font-size: 2rem;
-        letter-spacing: 1px;
-        border-color: #1BA0E1;
-        border-style: solid;
-        border-width: 0 0 2px;
-        margin: 0 auto 0;
-        padding: 0 0 10px;
-        position: relative;*/
-        display: none;
-    }
-    /*.mokuji::after{
-        border-color: #1BA0E1 transparent transparent;
-        border-style: solid;
-        border-width: 8px 8px 0;
-        bottom: -8px;
-        content: "";
-        display: block;
-        left: 32px;
-        position: absolute;
-    }
-    .mokuji::before{
-        border-color: #fff transparent transparent;
-        border-style: solid;
-        border-width: 8px 8px 0;
-        bottom: -5px;
-        content: "";
-        display: block;
-        left: 32px;
-        position: absolute;
-        z-index: 1;
-    }*/
     .main{
         float: none;
         width: 100%;
         margin: auto;
+    }
+    .header-wrapper {
+        width: 100%;
     }
     .wrapper{
         margin: 0 auto 40px;
@@ -664,7 +584,7 @@ blockquote {
         margin: 0 4px;
     }
     .global-nav .nav-item a{
-        width: 40px;
+        margin: 0 0 0 10px;
         font-size: 1.2rem;
     }
     .mokuji-list{
@@ -673,14 +593,6 @@ blockquote {
     .mokuji-item a{
         display: inline;
         padding: 2px 0 2px 2px;
-    }
-    .kakugen{
-        margin: 20px auto 30px;
-        font-weight: 200;
-        width: 10.5rem;/*widthを指定することでスマホ用のとき中央揃えになる*/
-    }
-    .kakugen a{
-        font-weight: 400;
     }
     .bookindex-table td.c1{
         width: 30%;

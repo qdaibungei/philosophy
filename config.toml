@@ -3,3 +3,6 @@ languageCode = "ja"
 title = "文藝部哲学会"
 FootnoteReturnLinkContents = "↩"
 publishDir = "docs"
+pygmentsUseClasses = true
+pygmentsCodefences = true
+preserveTaxonomyNames = true
