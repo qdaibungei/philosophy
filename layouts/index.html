@@ -1,12 +1,15 @@
 {{ partial "site_header.html" . }}
 {{ partial "menu_home.html" . }}
-<h1>HOME</h1>
-<p>文藝部哲学会の資料置き場。</p>
-
-<h2>注意</h2>
+<div class="title">HOME</div>
+<!-- <h2>概要</h2>
+<p>文藝部哲学会の資料置き場。</p> -->
+<!-- <h2>記事一覧</h2> -->
+<p></p>
 <ul>
-    <li>哲学会の記録をしていくだけの場所です。</li>
-    <li>あまり期待できるコンテンツはありません。</li>
-    <li>文藝部哲学会と名乗りつつ、文学を哲学的に論じようという気はあまりありません。</li>
+    {{ range .Data.Pages }}
+        {{ range .Data.Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a><span class="docs-date">{{ .Date.Format "2006年1月2日" }}</span></li>
+        {{ end }}
+    {{ end }}
 </ul>
 {{ partial "site_footer.html" . }}

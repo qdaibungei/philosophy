@@ -1,8 +1,11 @@
 baseURL = "https://qdaibungei.github.io/philosophy"
 languageCode = "ja"
 title = "文藝部哲学会"
-FootnoteReturnLinkContents = "↩"
+footnoteReturnLinkContents = "↑"
 publishDir = "docs"
 pygmentsUseClasses = true
 pygmentsCodefences = true
 preserveTaxonomyNames = true
+enableGitInfo = true
+[markup.goldmark.renderer]
+    unsafe = true
